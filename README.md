@@ -37,6 +37,8 @@ If a recipe is already in the database, it will not be parsed again.
 
 ## 🍲 API routes
 
+To access the collected data, launch the server using the `rails s` command. 
+
 - `GET /recipes/random/:nb_recipes`: returns a random selection of `nb_recipes` recipes.
 - `GET /recipes/find-by-ingredient/:ingredient`: returns all recipes that include `ingredient`.
 - `GET /recipes/find-by-ustensil/:ustensil`: returns all recipes that require `ustensil`.
