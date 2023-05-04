@@ -6,14 +6,16 @@ This Rails application is a simple API that parses recipes from marmiton.org and
 
 ## 📚 Versions
 
-- Ruby: 2.6.6
-- Rails: 6.0.6.1
+- Ruby 2.6.6
+- Rails 6.0.6.1
 
 ## 💎 Additional gems
 
 - HTTParty
 - Colorize
 - Nokogiri (normally already included in Rails)
+
+Make sure to run `bundle install` to install all the gems.
 
 ## 💾 Database creation and initialization
 
