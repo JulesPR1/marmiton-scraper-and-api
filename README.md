@@ -46,7 +46,7 @@ Available routes :
 - `GET /recipes/find-by-name/:name`: returns all recipes that match `name`.
 
 Exemple :
-`GET [/recipes/find-by-name/:name](http://127.0.0.1:3000/recipes/random/1)`
+`GET http://127.0.0.1:3000/recipes/random/1`
 
 ```
 [
