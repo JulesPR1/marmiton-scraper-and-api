@@ -1,6 +1,6 @@
 
 
-# 🍴 Marmiton Parser and Unofficial API 🍲
+# 🍴 Marmiton Scraper and Unofficial API 🍲
 
 This project is a simple Rails application that parses recipes from marmiton.org and stores them in a database. The recipes are then consultable and filterablr from an API.
 
