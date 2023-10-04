@@ -44,3 +44,46 @@ Available routes :
 - `GET /recipes/find-by-ingredient/:ingredient`: returns all recipes that include `ingredient`.
 - `GET /recipes/find-by-ustensil/:ustensil`: returns all recipes that require `ustensil`.
 - `GET /recipes/find-by-name/:name`: returns all recipes that match `name`.
+
+Exemple :
+`GET [/recipes/find-by-name/:name](http://127.0.0.1:3000/recipes/random/1)`
+
+```
+[
+	{
+		"name": "Toast d'aubergines au grille-pain",
+		"difficulty": "très facile",
+		"price_level": "bon marché",
+		"ingredients": [
+			"1 aubergine",
+			"10 tomates cerise",
+			"100 g de fromage de chèvre",
+			"1⁄2 concombre",
+			"100 g de thon",
+			"1 botte de radis rose"
+		],
+		"ustensils": [],
+		"instructions": [
+			{
+				"étape 1": "Couper des tranches épaisses d'aubergine."
+			},
+			{
+				"étape 2": "Les faire cuire en les plaçant dans le grille-pain puissance maximale. Répéter 3 fois l'opération."
+			},
+			{
+				"étape 3": "Mélanger le chèvre et le thon."
+			},
+			{
+				"étape 4": "Laver les radis et le concombre et les couper en fines rondelles. \nLaver les tomates cerise et les couper en 2."
+			},
+			{
+				"étape 5": "Tartiner les toasts d'aubergine de chèvre et garnir avec les rondelles de radis, les tomates, parsemer d'herbes fraiche."
+			}
+		],
+		"total_time": "22 min",
+		"prep_time": "12 min",
+		"reste_time": "-",
+		"cook_time": "10 min"
+	}
+]
+```
